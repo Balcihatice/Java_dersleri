@@ -12,15 +12,20 @@ Başlangıc degerinden başlayıp bitiş degerinde biten tüm tamsayıları ekra
  */
 
         Scanner input = new Scanner(System.in);
+
         System.out.println("Başlangıç degerini giriniz");
+
         int bas = input.nextInt();
+
         System.out.println("Bitis degerini giriniz");
         int bit = input.nextInt();
 
 
         if (bas > bit) {
             System.out.println("Baslangıc degeri giris degerinden kucuk olmalı");
+
         } else {
+
             for (int i = bas; i <= bit; i++) {
                 System.out.print(i + " ");
             }
